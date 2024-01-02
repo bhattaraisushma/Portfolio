@@ -3,6 +3,7 @@ import './globals.css'
 import Navbar from './Components/Navbar'
 import Page from './Components/About/page'
 import Services from './Services/Page'
+import Contact from './Components/Contact'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
 
 <Page/>
 <Services/>
+<Contact/>
 </div>
       </body>
     </html>

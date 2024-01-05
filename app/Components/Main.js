@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image  from 'next/image'
 const Main = () => {
   return (
     <div  className=' flex flex-row justify-between'>
@@ -11,7 +11,7 @@ const Main = () => {
     </h2>
     </div>
     <div className= 'w-[50%] text-black'>
-       <p> IMAGE</p>
+    <Image  className='h-[45rem] w-[35rem]  mt-[4rem] ml-[10rem]'  src='/sushbg-01.png '  height={60} width={500}></Image>
     </div>
     </div>
   )

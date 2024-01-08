@@ -13,7 +13,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 const Main = () => {
 
   return (
-    <div  className=' flex flex-row justify-between'>
+    <div   id="#" className=' flex flex-row justify-between bg-img bg-no-repeat  bg-width'>
         <div className='w-[50%]  h-screen  flex flex-col justify-center items-center'>
         <h2 className=''>Hi there</h2>
       <h1 className=' text-[2rem] font-bold '>I am a Web Developer</h1>
@@ -36,20 +36,19 @@ const Main = () => {
         // }}
         // navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper  ">
+        className="mySwiper  h-[25rem] object-cover rounded-[7rem]">
      
   
         <SwiperSlide >
-          <div className='h-[25rem] object-cover rounded-[7rem] '>
+       
           <Image src='/sush.jpg' className='h-full w-full  object-fill rounded-[7rem] '   height={1} width={400}/>
-       </div>
-     
+       
        </SwiperSlide>
 
        <SwiperSlide>
-       <div className='h-[25rem] object-cover rounded-[7rem] relative'>
+       
           <Image src='/sush.jpg' className='h-full w-full  object-fill  rounded-[7rem] '   height={1} width={400}/>
-       </div>
+
      
        </SwiperSlide>
        </Swiper>

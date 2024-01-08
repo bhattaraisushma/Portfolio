@@ -8,10 +8,17 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+        'img':'url("/bg.png")',
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      backgroundSize:{
+        'bg-height':'50%',
+        'width':'50%',
+        
+      }
+   
     },
   },
   plugins: [],

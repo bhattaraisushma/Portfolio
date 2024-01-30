@@ -6,7 +6,7 @@ const Page = () => {
   return (
     <div  id ="about" className=' w-full h-screen  flex flex-row justify-center items-center gap-[4rem]'>
       <div className='h-[15rem] w-[15rem] bg-neutral-50 border-green-500 border-[4px]'><Image src='/sush.jpg'className='h-full w-full '   height={1} width={400}/></div>
-      <div className='flex flex-col font-semibold text-[1rem]'><h1>About Me</h1>
+      <div className='flex flex-col font-semibold text-[1rem]'><h1 className=' text-2xl text-green-500'>About Me</h1>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
    <br></br>
    <h1>Name <span className='pl-[2rem] pr-[1rem]'>: </span>Sushma Bhattarai</h1>
